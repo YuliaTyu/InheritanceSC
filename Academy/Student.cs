@@ -23,12 +23,15 @@ namespace Academy
             Group = group;
             Rating = rating;
             Attendance = attendance;
-           Console.WriteLine($"SConstructor:\t"{ GetHashCode().ToString("X")});
+           Console.WriteLine($"SConstructor:\t{GetHashCode().ToString("X")}");
         }
         ~Student()
         {
-            Console.WriteLine(
+            Console.WriteLine($"SDestructor:\t{GetHashCode().ToString("X")}");
         }
-
+        public override string ToString()
+        {
+            return base.ToString() + $"{Speciality} {Group} {Rating} {Attendance}";
+        }
     }
 }

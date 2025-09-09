@@ -23,9 +23,9 @@ namespace Academy
         {
             Console.WriteLine($" Destructor: \t {GetHashCode().ToString("X")}");
         }
-        puplic override string ToSting()
+        public override string ToString()
         {
-          return base.ToString()+ $"{ LastName} { FerstName} { Age}";
+          return base.ToString()+ $"{ LastName} {FirstName} { Age}";
         }
 
 

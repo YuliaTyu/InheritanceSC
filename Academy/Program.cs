@@ -13,7 +13,8 @@ namespace Academy
             Human human = new Human("Swarc", "Arnold", 78);
             Console.WriteLine(human);
 
-            Student student = new Student("Colombo","Franco", 91, "HeavyMetall",)
+            Student student = new Student("Colombo", "Franco", 91, "HeavyMetall", "LA", 98, 100);
+            Console.WriteLine(student);
         }
     }
 }
