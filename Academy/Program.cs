@@ -19,7 +19,7 @@ namespace Academy
             Teacher teacher = new Teacher(" Jackson", " Michael", 67, 33);
             Console.WriteLine(teacher);
 
-            Graduate graduate = new Graduate(" Anna", " Carenina", 55, " Photograf", " NYT", 100, 100, " Grafica");
+            Graduate graduate = new Graduate(" Anna", " Carenina", 55, " Photographer", " NYT", 100, 100, " Grafica");
             Console.WriteLine(graduate);
         }
     }
