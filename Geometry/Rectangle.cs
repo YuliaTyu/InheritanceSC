@@ -59,7 +59,7 @@ namespace Geometry
         {
             Console.WriteLine($"Ширина: {Width}");
             Console.WriteLine($"Высота: {Height}");
-            Console.WriteLine($"Диагональ: {GetDiagonal}");
+            Console.WriteLine($"Диагональ: {GetDiagonal()}");
             base.Info(e);
             DrawDiagonal(e);
         }

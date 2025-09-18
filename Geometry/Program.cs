@@ -28,6 +28,9 @@ namespace Geometry
             rectangle.Info(e);
             Square square = new Square(80, 800, 10, 3, Color.Red);
             square.Info(e);
+            Circle circle = new Circle(75, 570, 95, 3, Color.Yellow);
+            circle.Info(e);
+
         }
         static void GetDiagonal(IHaveDiagonal d)
         {
