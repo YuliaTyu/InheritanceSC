@@ -46,7 +46,6 @@ namespace Geometry
         }
         public override void Info(PaintEventArgs e)
         {
-            Console.WriteLine(this.GetType());
             Console.WriteLine($"Радиус круга: {Radius}");
             base.Info(e);
         }

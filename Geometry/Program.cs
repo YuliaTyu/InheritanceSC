@@ -30,6 +30,8 @@ namespace Geometry
             square.Info(e);
             Circle circle = new Circle(75, 570, 95, 3, Color.Yellow);
             circle.Info(e);
+            //Triengle triangle = new Triengle (500, 500, 100, 5, Color.Red);
+            //triangle.Info(e);
 
         }
         static void GetDiagonal(IHaveDiagonal d)
