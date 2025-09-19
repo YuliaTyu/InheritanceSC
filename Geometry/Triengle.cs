@@ -13,6 +13,7 @@ namespace Geometry
     {
         double triangleBase;
         double triangleSide;
+        //Height - высота???????
         public double TriangleBase
         {
             get => triangleBase;
@@ -33,7 +34,7 @@ namespace Geometry
             TriangleSide = triangleSide;
         }
        
-        public override double GetArea() => triangleBase * TriangleSide;
+        public override double GetArea() => triangleBase * TriangleSide/2;
         public override double GetPerimeter() => TriangleBase + TriangleSide * 2;
         public override void Draw(PaintEventArgs e)
         {
